@@ -1,0 +1,666 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .sub-mobile-02 {
+        bottom: 19%;
+        right: 22%;
+    }
+
+    .shape img.shape-02 {
+        bottom: 4%;
+    }
+
+}
+
+
+/* Normal lg  desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-btn a.btn-right {
+        padding: 16px 26px;
+    }
+
+    .slider-area {
+        min-height: 1020px;
+    }
+
+    .slider-content {
+        margin-top: 300px;
+    }
+
+    .shape img.shape-01 {
+        top: 15%;
+        left: 5.5%;
+    }
+
+    .shape img.shape-02 {
+        bottom: 1%;
+    }
+
+    .slider-mobile {
+        width: 63%;
+        margin-top: 64px;
+    }
+
+    .fact-area {
+        margin-top: 60px;
+    }
+
+    .video-btn a i {
+        font-size: 20px;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+
+    .how-it-content-01 {
+        margin-top: 100px;
+    }
+
+    .how-img-01 {
+        width: 80%;
+    }
+
+    .how-it-content-img-01 {
+        margin-top: 100px;
+    }
+
+    .how-img-02 {
+        width: 80%;
+    }
+
+    .how-it-content-02 {
+        margin-top: 100px;
+    }
+
+    .price-btn a.btn {
+        display: inline-block;
+        text-align: center;
+        font-size: 15px;
+        padding: 25px 25px;
+    }
+
+    .faq-area {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    .faq-img {
+        margin-top: 45px;
+    }
+
+    .slider-img-area {
+        padding-bottom: 100px;
+    }
+
+    .news-des {
+        padding: 20px 20px;
+        width: 250px;
+    }
+
+    .news-des span:nth-child(2) {
+        margin-right: 10px;
+    }
+
+    input[type="email"] {
+        width: 555px;
+        margin-left: 90px;
+    }
+
+    form a.btn.sub-btn {
+        right: 35px;
+    }
+
+    .footer-title h1 {
+        font-size: 50px;
+    }
+
+}
+
+
+/* Tablet md desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .logo {
+        margin-top: 20px;
+
+    }
+
+    .header-area.header.header-sticky.sticky nav ul li a {
+        padding: 10px 05%;
+    }
+
+    .header-btn a.btn-right {
+        padding: 16px 26px;
+    }
+
+    .slider-area {
+        min-height: 800px;
+    }
+
+    .shape-01 {
+        display: none;
+    }
+
+    .shape-02 {
+        display: none;
+    }
+
+    .slider-mobile-area {
+        display: none;
+    }
+
+    .slider-content {
+        margin-top: 265px;
+    }
+
+    .fact-area {
+        padding-top: 20px;
+    }
+
+    .single-fact h2 {
+        font-size: 40px;
+    }
+
+    .single-fact::after {
+        left: 115%;
+    }
+
+    .single-fact span {
+        font-size: 16px;
+    }
+
+    .features-area {
+        padding-top: 100px;
+    }
+
+    .features-title h1 {
+        font-size: 40px;
+    }
+
+    .features-title p {
+        font-size: 18px;
+    }
+
+    .single-featurs h3 {
+        margin-bottom: 20px;
+    }
+
+    .single-featurs p {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+
+    .video-area {
+        padding-top: 100px;
+    }
+
+    .video-section h1 {
+        padding-top: 80px;
+        font-size: 40px;
+    }
+
+    .video-btn a i {
+        font-size: 20px;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+
+    .how-it-title h1 {
+        font-size: 40px;
+    }
+
+    .how-it-title p {
+        font-size: 18px;
+    }
+
+    .how-it-content-img-01 {
+        margin-top: 50px;
+    }
+
+    .how-it-content-01 {
+        margin-top: 45px;
+    }
+
+    .how-it-content-01 h2 {
+        font-size: 24px;
+    }
+
+    .how-it-content-01 p {
+        font-size: 16px;
+    }
+
+    .how-it-content-02 h2 {
+        font-size: 24px;
+    }
+
+    .how-it-content-02 p {
+        font-size: 16px;
+    }
+
+    .how-it-content-02 {
+        margin-top: 100px;
+    }
+
+    .how-it-content-img-02 {
+        margin-top: 60px;
+    }
+
+    .pricing-area {
+        padding-bottom: 30px;
+    }
+
+    .price-tab h2 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    .price-tab ul li {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .price-tab {
+        margin-bottom: 38px;
+    }
+
+    .testimonial-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .testimonial-title {
+        margin-bottom: 20px;
+    }
+
+    .testimonial-title h2 {
+        font-size: 40px;
+    }
+
+    .test-item p {
+        font-size: 18px;
+    }
+
+    .screenshot-area {
+        padding-top: 100px;
+    }
+
+    .screenshot-title h1 {
+        font-size: 40px;
+    }
+
+    .screenshot-title p {
+        font-size: 18px;
+    }
+
+    .faq-area {
+        padding-top: 100px;
+    }
+
+    .faq-title h1 {
+        font-size: 40px;
+    }
+
+    .faq-title p {
+        font-size: 18px;
+    }
+
+    .faq-img {
+        margin-top: 50px;
+    }
+
+    .slider-img-area {
+        padding-bottom: 100px;
+    }
+
+    .slider-img-header h2 {
+        font-size: 22px;
+    }
+
+    .news-title h1 {
+        font-size: 40px;
+    }
+
+    .news-des {
+        width: 190px;
+        padding: 30px;
+    }
+
+    .news-des span.calender,
+    span.admin {
+        margin-right: 1px;
+    }
+
+    .news-des span:nth-child(2) {
+        margin-right: 5px;
+    }
+
+    .news-des span {
+        margin-bottom: 4px;
+    }
+
+    .news-des h2 {
+        font-size: 16px;
+    }
+
+    .form-name h1 {
+        text-align: center;
+    }
+
+    .subscribe-form {
+        padding: 50px 20px;
+    }
+
+    .subs-form {
+        padding-bottom: 50px;
+    }
+
+    input[type="email"] {
+        padding: 18px 45px;
+        width: 100%;
+    }
+
+    form a.btn.sub-btn {
+        padding: 20px 25px;
+        right: 40px;
+        top: 114px;
+    }
+
+    .footer-title h1 {
+        font-size: 40px;
+    }
+
+}
+
+
+/* small sm mobile :320px. */
+@media (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header-area.header.header-sticky.sticky nav ul li a {
+        padding: 10px 05%;
+    }
+
+    .logo {
+        padding-top: 20px;
+    }
+
+    .slider-content {
+        margin-top: 200px;
+    }
+
+    .section-title h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .single-featurs p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .section-title p {
+        font-size: 18px;
+    }
+
+    .section-title {
+        margin-bottom: 55px;
+    }
+
+    .slider-btn a.btn-02 {
+        margin-top: 35px;
+        display: inline-block;
+    }
+
+    .slider-mobile {
+        display: none;
+    }
+
+    .features-title h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .how-works-area {
+        padding-bottom: 100px;
+    }
+
+    .features-title p {
+        font-size: 18px;
+    }
+
+    .shape-01 {
+        display: none;
+    }
+
+    .shape-02 {
+        display: none;
+    }
+
+    .slider-area {
+        min-height: 700px;
+        background-position: center center;
+    }
+
+    .video-section {
+        min-height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .video-section h1 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .how-it-title h1 {
+        font-size: 30px;
+    }
+
+    .how-it-title p {
+        font-size: 17px;
+    }
+
+    .how-it-content-01 {
+        margin-top: 90px;
+    }
+
+    .how-it-content-01 h2 {
+        font-size: 25px;
+    }
+
+    .how-it-content-01 p {
+        font-size: 16px;
+    }
+
+    .how-it-content-02 {
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+
+    .how-it-content-02 h2 {
+        font-size: 25px;
+    }
+
+    .how-it-content-img-02 img {
+        text-align: center !important;
+    }
+
+    .video-btn a i {
+        font-size: 20px;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+
+    .pricing-title h1 {
+        font-size: 35px;
+    }
+
+    .pricing-title p {
+        font-size: 17px;
+    }
+
+    .price-tab {
+        padding: 30px 30px;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .testimonial-title h2 {
+        font-size: 30px;
+    }
+
+    .testimonial-title {
+        margin-bottom: 20px;
+    }
+
+    .test-item p {
+        margin-bottom: 20px;
+    }
+
+    .test-item p {
+        font-size: 16px;
+    }
+
+    .single-test-img::before {
+        width: 109px;
+        height: 109px;
+        left: 5px;
+    }
+
+    .test-img-active img {
+        width: auto !important;
+        display: block;
+        margin: auto;
+    }
+
+    .screenshot-area {
+        padding-top: 100px;
+    }
+
+    .screenshot-title h1 {
+        font-size: 35px;
+    }
+
+    .faq-area {
+        padding-top: 100px;
+    }
+
+    .faq-title h1 {
+        font-size: 35px;
+    }
+
+    .faq-title p {
+        font-size: 18px;
+    }
+
+    .faq-img {
+        margin-left: 0;
+    }
+
+    .slider-img-header h2 {
+        font-size: 25px;
+    }
+
+    .news-title h1 {
+        font-size: 35px;
+    }
+
+    .news-title p {
+        font-size: 18px;
+    }
+
+    .single-news-img {
+        margin-bottom: 100px;
+    }
+
+    .news-des {
+        top: 144px;
+        left: 18px;
+    }
+
+    .form-area {
+        padding-top: 100px;
+    }
+
+    .subscribe-form {
+        padding: 35px 20px;
+    }
+
+    .subs-form {
+        text-align: center;
+    }
+
+    .form-name h1 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    input[type="email"] {
+        padding: 11px 16px;
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    form a.btn.sub-btn {
+        position: static;
+    }
+
+    .footer-btn {
+        display: block;
+    }
+
+    .btn-01 {
+        margin-bottom: 20px;
+    }
+
+    .footer-title h1 {
+        font-size: 35px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-area.header.header-sticky.sticky nav ul li a {
+        padding: 10px 05%;
+    }
+
+    .slider-area {
+        background-position: left;
+    }
+
+    .features-area {
+        padding-top: 100px;
+    }
+
+    .video-area {
+        padding-top: 100px;
+    }
+
+    .how-works-area {
+        padding-top: 100px;
+    }
+
+    .how-it-content-01 {
+        text-align: center;
+    }
+
+    .how-it-content-02 {
+        text-align: center;
+    }
+
+    .news-des {
+        top: 45%;
+        left: 21%;
+    }
+
+}
