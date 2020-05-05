@@ -376,7 +376,7 @@
 @media (max-width: 767px) {
 
     body {
-        overflow: hidden !important;
+        overflow-x: hidden !important;
     }
 
     .header-area.header.header-sticky.sticky nav ul li a {
